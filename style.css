@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    height: 100vh;
+    display: flex;
+    background: url('images/mount.jpg');
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
+  
+  .form {
+    width: 500px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+    transition: 1s height;
+  }
+  
+  /* .form:hover {
+    height: 420px;
+  } */
+  
+  input {
+    height: 40px;
+    width: 70%;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(100,100,100,0.2);
+    color: white;
+  }
+  
+  button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(100,100,100,0.9);
+  }
+  
+  .title {
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .inputpack {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+    
+    
+    .info {
+      margin: 40px 40px;
+      border: 1px solid white;
+      width: 100%;
+      padding: 25px;
+      border-radius: 15px;
+      background-color: rgba(255,255,255,0.2);
+      backdrop-filter: blur(5px);
+      position: relative;
+      right: 39px;
+      top: 45px;
+    }
+  
+  .cityName {
+    font-size: 35px;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  td {
+    width: 50%;
+  }
+  
+  
